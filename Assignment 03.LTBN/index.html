@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/laptop.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>ASSIGNMENT 3</title>
+  </head>
+  <body>
+    <div class="container-xl">
+      <div class="banner container-fluid px-0">
+        <div>
+          <img
+            class="img-fluid"
+            src="images/banner.jpg"
+            href="image of banner"
+            style="width: 1400px; height: 400px"
+          />
+        </div>
+        <div class="name-position text-white">
+          <h1>Jade Le</h1>
+          <div>Fullstack developer</div>
+        </div>
+      </div>
+      <!-- NAVBAR -->
+      <div class="navbar navbar-expand-sm py-0">
+        <div class="container-fluid justify-content-sm-center">
+          <ul class="navbar-nav flex-sm-row justify-content-start">
+            <li class="nav-item item-hover ps-2 pe-1">
+              <a href="#target-info" class="nav-link text-secondary"
+                ><i class="icon-user text-primary"></i>INFORMATION</a
+              >
+            </li>
+            <li class="nav-item item-hover ps-2 pe-1">
+              <a href="#my-profile" class="nav-link text-secondary"
+                ><i class="icon-doc-text-inv text-primary"></i>BACKGROUND</a
+              >
+            </li>
+            <li class="nav-item border-bottom-0" id="personal-image">
+              <img
+                src="images/Per-CV.jpg"
+                href="personal image"
+                class="personal-image"
+              />
+            </li>
+            <li class="nav-item item-hover ps-2 pe-1">
+              <a href="#certificate" class="nav-link text-secondary"
+                ><i class="icon-mail-alt text-primary"></i>CERTIFICATE</a
+              >
+            </li>
+            <li class="nav-item item-hover item-project ps-2 pe-1">
+              <a href="#du-an" class="nav-link text-secondary"
+                ><i class="icon-star-1 text-primary"></i>PROJECT</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="target-info">
+        <div class="container-xl">
+          <div class="row row-cols-sm-2 justify-content-center">
+            <div class="col-sm-6 target bg-gray-100 py-5">
+              <h2 class="text-dark px-sm-2 px-md-5 px-1">CAREER GOALS</h2>
+              <p class="px-sm-2 px-md-5 px-1 py-3 text-secondary">
+                As a student who has completed the Doanh certificate program at
+                FUNIX, I hope to be able to work in this Fullstack Developer
+                position. I can apply the knowledge and experience I have
+                accumulated throughout the learning process to effectively
+                create and produce products. At the same time, I participate in
+                various projects to cultivate and develop my skills, which will
+                help me complete the tasks assigned to the job.
+              </p>
+            </div>
+
+            <div
+              class="col-sm-6 target bg-gray-300 py-5 personal-information hidden"
+            >
+              <h2 class="px-sm-2 px-md-5 px-1">Personal Information</h2>
+              <div class="section-content px-sm-5 px-1 py-3">
+                <div class="info-title">
+                  <strong>Date of Birth</strong>
+                  <span class="info-details text-secondary"
+                    >:April 12, 1991</span
+                  >
+                </div>
+                <div class="info-title">
+                  <strong>Sex</strong>
+                  <span class="info-details text-secondary">:Female</span>
+                </div>
+                <div class="info-title">
+                  <strong>Phone</strong>
+                  <span class="info-details text-secondary"
+                    >:(+84)0903547617</span
+                  >
+                </div>
+                <div class="info-title">
+                  <strong>Email</strong>
+                  <span class="info-details text-secondary"
+                    >:ltbngoc0412@gmail.com</span
+                  >
+                </div>
+                <div class="info-title">
+                  <strong>Address</strong>
+                  <span class="info-details text-secondary"
+                    >:Ho Chi Minh, Việt Nam</span
+                  >
+                </div>
+                <div class="info-title">
+                  <strong>Website</strong>
+                  <span class="info-details text-secondary"
+                    >:https://abc.tech.com</span
+                  >
+                </div>
+              </div>
+              <div class="icon px-5 pt-4">
+                <a href="#"><i class="icon-twitter"></i></a>
+                <a href="#"><i class="icon-facebook"></i></a>
+                <a href="#"><i class="icon-gplus"></i></a>
+                <a href="#"><i class="icon-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="col-sm-6 target bg-gray-300 py-5 type-email">
+              <h2 class="px-md-5 px-sm-2 px-1 pb-2">Personal Information</h2>
+              <div class="mt-1 px-md-5 px-sm-2">
+                <input
+                  type="email"
+                  class="input-email mt-2"
+                  id="emailFormControl"
+                  placeholder="Enter email"
+                />
+                <p class="text-secondary size-small">
+                  Please enter your email to verify
+                </p>
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-sm"
+                  style="width: 70px"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Myprofile py-5" id="my-profile">
+        <div class="container-xl">
+          <div
+            class="row row-cols-md-3 row-cols-sm-2 row-cols-1 gap-md-3 gap-sm-2 gap-2 justify-content-sm-center"
+          >
+            <div class="col-md-3 col-sm-5 profile-1">
+              <div class="row py-3 justify-content-center hover">
+                <div class="col-8 py-2 profile-name">Experience</div>
+                <div class="col-4 py-2 icon"><i class="ic-toolbox i1"></i></div>
+                <div
+                  class="view-more view-more1 col-auto py-1 justify-self-start hidden"
+                >
+                  <i class="bi bi-caret-down-fill"></i>
+                  VIEW MORE
+                </div>
+                <div class="view-less view-less1 col-auto py-1 hidden">
+                  <i class="bi bi-caret-up-fill"></i>VIEW LESS
+                </div>
+              </div>
+              <div class="ps-1 pe-3 ex-info hidden">
+                <ul class="unordered-list">
+                  <li>
+                    <p class="text-dark workplace">
+                      Fullstack Developer - Y Company
+                    </p>
+                    <div class="content time py-1 text-secondary">
+                      __/2024 -
+                      <span class="border-box text-white">Now</span>
+                    </div>
+                    <div class="content position text-secondary">
+                      <p>
+                        - Build and develop Website based on existing design and
+                        requirements.
+                      </p>
+                      <p>
+                        - Analyze and design databases, use database management
+                        systems (MySQL, SQLServer, NoSQUL,...) and write
+                        queries.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <p class="text-dark workplace">Web Designer - X Company</p>
+                    <div class="content time text-secondary">
+                      __/20__ - __/20__
+                    </div>
+                    <div class="content position text-secondary">
+                      <p>- Website design based on customer requirements.</p>
+                      <p>- Use tools: Figma, Canva, PTS.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-5 profile-1">
+              <div class="row py-3 justify-content-center hover">
+                <div class="col-8 py-2 profile-name">Education</div>
+                <div class="col-4 py-2 icon"><i class="ic-pencil i1"></i></div>
+                <div class="view-more view-more2 col-auto py-1 hidden">
+                  <i class="bi bi-caret-down-fill"></i>
+                  VIEW MORE
+                </div>
+                <div class="view-less view-less2 col-auto py-1 hidden">
+                  <i class="bi bi-caret-up-fill"></i>VIEW LESS
+                </div>
+              </div>
+              <div class="ps-1 pe-3 ed-info hidden">
+                <ul class="unordered-list">
+                  <li>
+                    <p class="text-dark workplace">FUNIX</p>
+                    <div class="content time py-1 text-secondary">
+                      03/2024 - __/2024
+                    </div>
+                    <div class="content position text-secondary">
+                      <p>- Graduated from Fullstack business certificate.</p>
+                      <p>- GPA: __/4</p>
+                    </div>
+                  </li>
+                  <li>
+                    <p class="text-dark workplace">
+                      Bachelor-DUY TAN University
+                    </p>
+                    <div class="content time text-secondary">2010 - 2020</div>
+                    <div class="content position text-secondary">
+                      <p>- Major: English of Touism</p>
+                      <p>- GPA: 2.94/4</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-5 profile-1">
+              <div class="row py-3 justify-content-center hover">
+                <div class="col-8 py-2 profile-name">Activity</div>
+                <div class="col-4 py-2 icon"><i class="ic-toolbox i1"></i></div>
+                <div
+                  class="view-more view-more3 col-auto py-1 justify-self-start hidden"
+                >
+                  <i class="bi bi-caret-down-fill"></i>
+                  VIEW MORE
+                </div>
+                <div class="view-less view-less3 col-auto py-1 hidden">
+                  <i class="bi bi-caret-up-fill"></i>VIEW LESS
+                </div>
+              </div>
+              <div class="ps-1 pe-3 act-info hidden">
+                <ul class="unordered-list">
+                  <li>
+                    <p class="text-dark workplace">FPT Edu Hackathon 2019</p>
+                    <div class="content time py-1 text-secondary">
+                      __/20 - __/20__
+                    </div>
+                    <div class="content position text-secondary">
+                      <p>- 3rd place in Group A</p>
+                      <p>- Topic: Website about waste classification.p></p>
+                    </div>
+                  </li>
+                  <li>
+                    <p class="text-dark workplace">Z Club</p>
+                    <div class="content time text-secondary">
+                      __/20__ - __/20__
+                    </div>
+                    <div class="content position text-secondary">
+                      <p>- Head of the professional committee.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-5 profile-1">
+              <div class="row py-3 justify-content-center hover">
+                <div class="col-8 py-2 profile-name">Hobby</div>
+                <div class="col-4 py-2 icon">
+                  <i class="ic-telescope i1"></i>
+                </div>
+                <div
+                  class="view-more view-more4 col-auto py-1 justify-self-start hidden"
+                >
+                  <i class="bi bi-caret-down-fill"></i>
+                  VIEW MORE
+                </div>
+                <div class="view-less view-less4 col-auto py-1 hidden">
+                  <i class="bi bi-caret-up-fill"></i>VIEW LESS
+                </div>
+              </div>
+              <div class="ps-1 pe-3 hobby-info hidden">
+                <ul class="row row-cols-md-4 row-cols-sm-3 hobby-list">
+                  <li class="col-md-3 col-4 ps-0 pe-2">
+                    <div class="image-hobby text-secondary">
+                      <i class="ic-megaphone icon2"></i>
+                    </div>
+                    <div class="hobby py-1 text-secondary pt-1">Music</div>
+                  </li>
+
+                  <li class="col-md-3 col-4 ps-0 pe-2">
+                    <div class="content image-hobby text-secondary">
+                      <i class="ic-basket icon2"></i>
+                    </div>
+                    <div class="hobby text-secondary pt-1">Cooking</div>
+                  </li>
+                  <li class="col-md-3 col-4 ps-0 pe-2">
+                    <div class="content image-hobby text-secondary">
+                      <i class="ic-hotairballoon icon2"></i>
+                    </div>
+                    <div class="hobby text-secondary pt-1">Travel</div>
+                  </li>
+                  <li class="col-md-3 col-4 ps-0 pe-2">
+                    <div class="content image-hobby text-secondary">
+                      <i class="ic-pencil icon2"></i>
+                    </div>
+                    <div class="hobby text-secondary pt-1">Movie</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-5 profile-1">
+              <div class="row py-3 justify-content-center hover">
+                <div class="col-8 py-2 profile-name">Language</div>
+                <div class="col-4 py-2 icon"><i class="ic-mic i1"></i></div>
+                <div
+                  class="view-more view-more5 view-more1 col-auto py-1 justify-self-start hidden"
+                >
+                  <i class="bi bi-caret-down-fill"></i>
+                  VIEW MORE
+                </div>
+                <div class="view-less view-less5 col-auto py-1 hidden">
+                  <i class="bi bi-caret-up-fill"></i>VIEW LESS
+                </div>
+              </div>
+              <div class="ps-1 pe-3 lang-info hidden">
+                <ul class="row justify-content-between">
+                  <li>
+                    <div class="text-dark workplace">English</div>
+                    <div class="row gap-2 level pt-4">
+                      <div class="col-3 level1"></div>
+                      <div class="col-3 level1"></div>
+                      <div class="col-3 level0"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-5 profile-1">
+              <div class="row py-3 justify-content-center hover">
+                <div class="col-8 py-2 profile-name">Skill</div>
+                <div class="col-4 py-2 icon"><i class="ic-tools-2 i1"></i></div>
+                <div
+                  class="view-more view-more6 col-auto py-1 justify-self-start hidden"
+                >
+                  <i class="bi bi-caret-down-fill"></i>
+                  VIEW MORE
+                </div>
+                <div class="view-less view-less6 col-auto py-1 hidden">
+                  <i class="bi bi-caret-up-fill"></i>VIEW LESS
+                </div>
+              </div>
+              <div class="ps-1 pe-3 skill-info hidden">
+                <ul class="row justify-content-between">
+                  <li>
+                    <div class="text-dark workplace">HTML/CSS: Fundamental</div>
+                    <div class="row gap-2 level pt-4">
+                      <div class="col-3 level1"></div>
+                      <div class="col-3 level0"></div>
+                      <div class="col-3 level0"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="text-dark workplace">
+                      Javascript: Intermediate
+                    </div>
+                    <div class="row gap-2 level pt-4">
+                      <div class="col-3 level1"></div>
+                      <div class="col-3 level1"></div>
+                      <div class="col-3 level0"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CHUNG NHAN - CHUNG CHI -->
+      <div class="Chungchi" id="certificate">
+        <div class="container-xl bg-gray-100 py-4">
+          <h2 class="text-dark px-5 pb-4">Certificate - Award</h2>
+          <div class="row row-cols-sm-2 px-0 ms-1 justify-content-start">
+            <div class="col-sm-6 py-3 ms-1 row border1 border-special">
+              <div class="col-md-6 px-2">
+                <img
+                  class="image-cert"
+                  src="images/Cert_WEB.png"
+                  href="Certificate Web"
+                />
+              </div>
+              <div class="col-md-6 px-2">
+                <p class="text-dark cert-name">WEB-FUNIX CERTIFICATE</p>
+                <p class="text-secondary cert-content mb-0">
+                  - Certificate under the CCDN program.
+                </p>
+                <p class="text-secondary cert-content">- GPA: __</p>
+              </div>
+            </div>
+            <div class="col-sm-6 py-3 ms-1 row border1 border2 border-special">
+              <div class="col-md-6 px-2">
+                <img
+                  class="image-cert"
+                  src="images/Cert_PRF.png"
+                  href="Certificate Javascript"
+                />
+              </div>
+              <div class="col-md-6 px-2">
+                <p class="text-dark cert-name">
+                  JAVA-FUNIX PROGRAMMING CERTIFICATE
+                </p>
+                <p class="text-secondary cert-content mb-0">
+                  - Certificate under the CCDN program.
+                </p>
+                <p class="text-secondary cert-content">- GPA: __</p>
+              </div>
+            </div>
+            <div class="col-sm-6 py-3 ms-1 row row-cols-sm-1 border-special">
+              <div class="col-md-6 px-2">
+                <img
+                  class="image-cert"
+                  src="images/Cert_DBI.png"
+                  href="Certificate Javascript"
+                />
+              </div>
+              <div class="col-md-6 px-2">
+                <p class="text-dark cert-name">
+                  DATABASE-FUNIX PROGRAMMING CERTIFICATE
+                </p>
+                <p class="text-secondary cert-content mb-0">
+                  - Certificate under the CCDN program.
+                </p>
+                <p class="text-secondary cert-content">- GPA: __</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- DỰ ÁN -->
+      <div class="Duan" id="du-an">
+        <div class="container-xl py-4">
+          <h2 class="text-dark px-5 pb-4">Project</h2>
+          <div
+            class="row row-cols-sm-3 justify-content-sm-center text-secondary gap-sm-3 gap-2"
+          >
+            <div class="col-sm-3 px-0 border">
+              <img
+                class="project-image"
+                src="images/project_1.png"
+                href="image-project-CV"
+              />
+              <div class="border-top text-dark py-2 project-name ps-3">
+                <a href="Project Charter.html">PERSONAL CV</a>
+              </div>
+              <div
+                class="row row-cols-md-3 row-cols-sm-2 justify-content-md-center justify-content-sm-end align-items-center py-2 border-top gx-0 gap-md-2 gap-sm-1 project-detail"
+              >
+                <div class="year col-2 col-md-2 col-sm-3">2021</div>
+                <div class="company col-md-4 col-sm-8">
+                  <i class="icon-user-1 icon3"></i>FuNix
+                </div>
+                <div class="post col-md-4 col-sm-8">
+                  <i class="icon-lamp icon3"></i>Developer
+                </div>
+              </div>
+              <table class="border-top table text-secondary">
+                <tr class="py-5">
+                  <td class="column1">Describe</td>
+                  <td class="column2">
+                    Online personal CV website. Include personal information as
+                    well as professional skills.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="column1">Mission</td>
+                  <td class="column2">
+                    Develop, optimize code and handle errors.
+                  </td>
+                </tr>
+
+                <tr class="last">
+                  <td class="column1">Technology</td>
+                  <td class="column2">HTML, CSS.</td>
+                </tr>
+              </table>
+            </div>
+            <div class="col-sm-3 px-0 border">
+              <img
+                class="project-image"
+                src="images/project_2.png"
+                href="image-project-CV"
+              />
+              <div class="border-top text-dark py-2 project-name ps-3">
+                <a href="Project Charter.html">PERSONAL MANAGEMENT WEBSITE</a>
+              </div>
+              <div
+                class="row row-cols-md-3 row-cols-sm-2 justify-content-md-center justify-content-sm-end align-items-center py-2 border-top gx-0 gap-md-2 gap-sm-1 project-detail"
+              >
+                <div class="year col-2 col-md-2 col-sm-3">2021</div>
+                <div class="company col-md-4 col-sm-8">
+                  <i class="icon-user-1 icon3"></i>FuNix
+                </div>
+                <div class="post col-md-4 col-sm-8">
+                  <i class="icon-lamp icon3"></i>Developer
+                </div>
+              </div>
+              <table class="border-top table text-secondary">
+                <tr class="py-5">
+                  <td class="column1">Describe</td>
+                  <td class="column2">
+                    The application helps manage pet information such as:
+                    Weight, breed, vaccination status,...Including
+                    add/edit/delete functions.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="column1">Mission</td>
+                  <td class="column2">
+                    Develop, optimize code and handle errors.
+                  </td>
+                </tr>
+                <tr class="last">
+                  <td class="column1">Technology</td>
+                  <td class="column2">HTML, CSS.</td>
+                </tr>
+              </table>
+            </div>
+            <div class="col-sm-3 px-0 border">
+              <img
+                class="project-image"
+                src="images/project_3.png"
+                href="image-project-CV"
+              />
+              <div class="border-top text-dark py-2 project-name ps-3">
+                <a href="Project Charter.html">NEWS VIEW WEBSITE</a>
+              </div>
+              <div
+                class="row row-cols-md-3 row-cols-sm-2 justify-content-md-center justify-content-sm-end align-items-center py-2 border-top gx-0 gap-md-2 gap-sm-1 project-detail"
+              >
+                <div class="year col-2 col-md-2 col-sm-3">2021</div>
+                <div class="company col-md-4 col-sm-8">
+                  <i class="icon-user-1 icon3"></i>FuNix
+                </div>
+                <div class="post col-md-4 col-sm-8">
+                  <i class="icon-lamp icon3"></i>Developer
+                </div>
+              </div>
+              <table class="border-top table text-secondary">
+                <tr class="py-5">
+                  <td class="column1">Describe</td>
+                  <td class="column2">
+                    The website views news from many different sources, users
+                    can search for news based on keywords.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="column1">Mission</td>
+                  <td class="column2">
+                    Develop, optimize code and handle errors.
+                  </td>
+                </tr>
+                <tr class="last">
+                  <td class="column1">Technology</td>
+                  <td class="column2">HTML, CSS.</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container bg-gray-100 py-4">
+          <div
+            class="d-flex flex-row justify-content-center align-items-center gap-sm-5"
+          >
+            <div class="facebook d-flex flex-row">
+              <a href="#"><i class="icon-facebook-circled icon4"></i></a>
+              <a
+                href="#"
+                class="text-secondary align-self-center text-decoration-none display"
+                >Facebook</a
+              >
+            </div>
+            <div class="linkedln d-flex flex-row">
+              <a href="#"><i class="icon-linkedin-circled icon4"></i></a>
+              <a
+                href="#"
+                class="text-secondary align-self-center text-decoration-none display"
+                >Linkedln</a
+              >
+            </div>
+            <div class="github d-flex flex-row">
+              <a href="#"><i class="icon-github-circled icon4"></i></a>
+              <a
+                href="#"
+                class="text-secondary align-self-center text-decoration-none display"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

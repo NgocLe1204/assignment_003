@@ -1,0 +1,41 @@
+@media (max-width: 576px) {
+  .personal-image,
+  #personal-image {
+    display: none;
+  }
+  .nav-item {
+    border: none;
+  }
+  /* MỤC TIÊU -THÔNG TIN CÁ NHÂN */
+  .target,
+  .personal-information {
+    padding-left: 5px;
+  }
+  .border1,
+  .border2 {
+    border: none;
+  }
+  .border-special {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .project-detail {
+    padding-left: 20px;
+  }
+  .company {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  /* ẨN HIỆN LÝ LỊCH KHI HOVER */
+  .hover:hover .view-more {
+    display: block;
+  }
+  /* FOOTER */
+  .display {
+    display: none;
+  }
+  /*  hộp link quay lại trang CV chủ */
+  .turn-back {
+    width: 40%;
+    font-size: 15px;
+  }
+}

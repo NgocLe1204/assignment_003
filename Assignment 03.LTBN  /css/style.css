@@ -1,0 +1,504 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "open_sanslight";
+}
+.CV-cover {
+  width: 900px;
+  height: auto;
+  margin: 40px;
+}
+.container {
+  height: auto;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.name {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+.job {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  font-size: 14px;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+.topnav {
+  display: grid;
+  width: 100%;
+  height: 40px;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: 100%;
+  overflow: auto;
+  background-color: whitesmoke;
+  border: 1px solid #ebebeb;
+  align-content: center;
+  justify-content: center;
+}
+.topnav span {
+  width: 200px;
+}
+.main-avt {
+  position: absolute;
+  border-radius: 50%;
+  left: 45%;
+  right: 50%;
+  top: 13%;
+  border: 4px solid white;
+}
+
+.topnav a,
+.topnav span {
+  display: block;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 12px 10px 10px 25px;
+  font-size: 8px;
+  text-decoration: none;
+  text-align: end;
+  justify-self: center;
+  border-left: 1px solid #ebebeb;
+}
+.link-block {
+  border-right: 1px solid #ebebeb;
+}
+.topnav a:hover {
+  background-color: #fff;
+}
+.topnav a:active {
+  background-color: rgb(201, 202, 202);
+}
+.mid-name {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.mid-job {
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 500px) {
+  .topnav a {
+    float: none;
+    display: block;
+  }
+}
+
+.career-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.per-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.icon-user,
+.icon-star,
+.icon-mail-alt,
+.icon-doc-text-inv {
+  color: #199cdb;
+}
+.personal-info {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  column-gap: 80px;
+  padding-top: 20px;
+  background-color: whitesmoke;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.career-goals {
+  padding-left: 50%;
+  padding-top: 20px;
+  justify-items: center;
+  text-align: left;
+  line-height: 26px;
+  color: black;
+}
+
+.per-info {
+  padding-right: 50%;
+  justify-self: center;
+  text-align: left;
+  line-height: 28px;
+}
+
+.info {
+  display: inline-block;
+  font-weight: bold;
+  padding-right: 6px;
+}
+
+.icon1 {
+  padding-top: 20px;
+  font-size: 18px;
+  color: rgb(54, 166, 214);
+}
+
+.job-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.text {
+  width: 75%;
+  color: rgb(131, 126, 126);
+  font-weight: bold;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.icon2 {
+  width: 25%;
+  align-self: center;
+  font-size: 25px;
+  color: rgb(139, 141, 143);
+  text-align: center;
+  padding: 20px;
+}
+
+.detail {
+  display: grid;
+  width: 100%;
+  color: #7c7979;
+  font-size: 14px;
+  justify-content: start;
+  padding: 10px 30px;
+  line-height: 28px;
+  text-align: start;
+}
+
+.experience {
+  border: 2px solid #ebebeb;
+  justify-self: center;
+  background-color: #fff;
+  margin-bottom: 30px;
+  height: 600px;
+}
+
+.education {
+  border: 2px solid #ebebeb;
+  justify-self: center;
+  background-color: #fff;
+  margin-bottom: 30px;
+  height: 600px;
+}
+
+.activities {
+  border: 2px solid #ebebeb;
+  justify-self: center;
+  background-color: #fff;
+  margin-bottom: 30px;
+  height: 600px;
+}
+
+.place {
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+
+.dd-yy {
+  font-style: italic;
+  font-size: 14px;
+}
+.color {
+  border: 1px solid rgb(129, 211, 247);
+  background-color: rgb(129, 211, 247);
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.hobby {
+  display: grid;
+  border: 2px solid #ebebeb;
+  justify-self: center;
+  background-color: #fff;
+}
+
+.content {
+  width: 100%;
+  height: 200px;
+  color: #7c7979;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 8px 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.icon4 {
+  border: 1px solid rgb(54, 166, 214);
+  color: rgb(54, 166, 214);
+  width: 30%;
+  padding: 10px 2px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.text2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-left: 10px;
+}
+.type1 .type2 .type3 .type4 {
+  font-size: 14px;
+}
+
+.language {
+  display: grid;
+  border: 2px solid #ebebeb;
+  justify-self: space-around;
+  background-color: #fff;
+  padding: 0 20px;
+}
+.subject {
+  font-weight: bold;
+  font-size: 16px;
+}
+.level1 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.level2 {
+  background: #c1c3c4;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.skill {
+  display: grid;
+  border: 2px solid #ebebeb;
+  justify-self: space-around;
+  background-color: #fff;
+  padding: 0 20px;
+}
+
+.certificate-award {
+  width: auto;
+  background-color: whitesmoke;
+  padding: 0 40px 30px 40px;
+}
+
+.title-box {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 0;
+  margin-top: 20px;
+  color: black;
+  text-align: start;
+}
+
+.Web-Funix-Certificate {
+  display: flex;
+  padding-right: 20px;
+  border-right: 1px solid #d6c08d;
+}
+.Javascript-Funix-Certificate {
+  display: flex;
+}
+.DataBase-Funix-Certificate {
+  display: flex;
+}
+.cert-box1 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+  justify-content: space-between;
+}
+.cert-box {
+  display: inline-block;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  color: #7c7979;
+  text-align: start;
+}
+
+.cert-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 14px;
+}
+.cert-box2 {
+  display: grid;
+}
+.cert-detail {
+  font-size: 10px;
+  line-height: 16px;
+}
+.border {
+  height: 1px;
+  width: 200%;
+  background-color: #d6c08d;
+  margin-bottom: 20px;
+}
+
+.projects {
+  display: grid;
+  width: 900px;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box1 {
+  display: grid;
+  width: 300px;
+  height: auto;
+  /* padding-left: 40px; */
+  margin-bottom: 10px;
+}
+
+.cv-header {
+  width: 300px;
+  height: 40px;
+  color: black;
+  background-color: white;
+  font-size: 14px;
+  text-align: start;
+  padding: 10px 20px;
+  border: 1px solid #ebebeb;
+  text-transform: uppercase;
+}
+
+.cv-info {
+  width: 300px;
+  height: 40px;
+  padding: 8px 20px;
+
+  background-color: white;
+  border: 1px solid #ebebeb;
+}
+.cv-dd-yy {
+  font-size: 14px;
+  border: 1px solid #199cdb;
+  border-radius: 10px;
+  color: white;
+  padding: 2px 8px;
+  background-color: #199cdb;
+}
+.funix {
+  padding-right: 8px;
+  padding-left: 8px;
+  color: #8b8888;
+}
+
+.developer {
+  padding-right: 8px;
+  padding-left: 8px;
+  color: #8b8888;
+}
+.cv-info-table,
+tr {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #ebebeb;
+  font-size: 10px;
+  padding: 10px 10px;
+  border-collapse: collapse;
+  background-color: white;
+}
+.table-data {
+  padding: 4px;
+  text-align: start;
+  color: #8b8888;
+}
+
+.box2 {
+  display: grid;
+  width: 300px;
+  height: auto;
+
+  margin-bottom: 10px;
+}
+
+.box3 {
+  display: grid;
+  width: 300px;
+  height: auto;
+
+  margin-bottom: 10px;
+}
+.contact {
+  display: inline-block;
+  width: 920px;
+  height: 80px;
+
+  background-color: rgb(246, 242, 242);
+  padding-top: 25px;
+
+  text-decoration: none;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled {
+  color: #199cdb;
+  padding-left: 40px;
+  padding-right: 10px;
+  font-size: 24px;
+}
+.contact a {
+  float: left;
+  color: rgb(129, 126, 126);
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  align-content: center;
+}
+.contact a:hover {
+  background-color: rgb(246, 242, 242);
+}
+
+.contact a:active {
+  background-color: rgb(246, 242, 242);
+}

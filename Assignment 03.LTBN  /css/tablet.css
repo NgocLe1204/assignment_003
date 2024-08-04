@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  .personal-image,
+  #personal-image {
+    display: none;
+  }
+  .project-detail {
+    font-size: 13px;
+  }
+  .company,
+  .post {
+    text-align: left;
+  }
+  .name {
+    width: 100%;
+  }
+  /* ẨN HIỆN LÝ LỊCH KHI HOVER */
+  .hover:hover .view-more {
+    display: block;
+  }
+  /*  hộp link quay lại trang CV chủ */
+  .turn-back {
+    width: 23%;
+    font-size: 15px;
+  }
+}
